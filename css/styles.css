@@ -1,9 +1,183 @@
+
+/* Koko sivu */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #e9edf1;
+    font-family: Arial, sans-serif;
+}
+
+/* sisältö */
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: rgb(243, 242, 242);
+    border: 1px solid #cccccc;
+}
+
+/* Vasen kuva */
+
 .image-section {
-    width: 650px;
-    height: auto;
-    }
+    width: 50%;
+}
+
 .image-section img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* Oikeanpuoleinen kuva */
+
+.list-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 60px 40px;
+}
+
+/* Otsikko */
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+/* Tarvikkeen lisääminen */
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.input-section label {
+    font-size: 18px;
+}
+
+/* Teksti */
+
+.input-section input {
+    width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input-section input::placeholder {
+    color: #aaaaaa;
+}
+
+/* Lisää-painike */
+
+.input-section button {
+    width: 55%;
+    max-width: 300px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background-color: #444444;
+}
+
+/* Tarviketaulukko */
+
+#packingTable {
+    width: 80%;
+    margin-top: 65px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+/* Taulukko */
+#packingTable {
+    width: 80%;
+    margin-top: 65px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Musta otsikkopalkki */
+#packingTable thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Harmaat tarvikerivit */
+#packingTable tbody td {
+    background-color: #cccccc;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+/* Pakattu tarvike */
+.packed {
+    text-decoration: line-through;
+}
+
+
+/* Mobiili responsiivisuus */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .image-section {
+        width: 100%;
+        height: 300px;
+    }
+
+    .list-section {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #packingTable {
+        width: 100%;
+    }
+
+    .input-section button {
+        width: 70%;
+    }
 }
