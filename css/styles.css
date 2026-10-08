@@ -1,0 +1,9 @@
+.image-section {
+    width: 650px;
+    height: auto;
+    }
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
