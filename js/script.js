@@ -5,6 +5,12 @@ const packingList = document.getElementById("packingList");
 
 addButton.addEventListener("click", function() {
     const item = itemInput.value;
+    if (item.length < 3) {
+        itemInput.classList.add("input-error");
+        alert("Virhellinen syöttö!");
+        return;
+    }
+itemInput.classList.remove("input-error");
 
     const newRow = document.createElement("tr");
     const newCell = document.createElement("td");

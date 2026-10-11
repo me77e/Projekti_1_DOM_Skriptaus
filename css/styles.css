@@ -181,3 +181,8 @@ h1 {
         width: 70%;
     }
 }
+
+/*virheeen korostus */
+.input-section input.input-error {
+    border: 2px solid red;
+}
