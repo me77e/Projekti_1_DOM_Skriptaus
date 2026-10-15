@@ -16,7 +16,21 @@ itemInput.classList.remove("input-error");
     const newCell = document.createElement("td");
 
     newCell.textContent = item;
+    newCell.addEventListener("click", function () {
+    newCell.classList.toggle("pakattu");
+});
     newRow.appendChild(newCell);
+    const removeCell = document.createElement("td");
+const removeButton = document.createElement("button");
+
+removeButton.textContent = "Poista";
+
+removeButton.addEventListener("click", function () {
+    newRow.remove();
+});
+
+removeCell.appendChild(removeButton);
+newRow.appendChild(removeCell);
 
     packingList.appendChild(newRow);
 

@@ -186,3 +186,12 @@ h1 {
 .input-section input.input-error {
     border: 2px solid red;
 }
+
+.pakattu {
+    text-decoration: line-through;
+    color: #777;
+}
+
+#packingList td:first-child {
+    cursor: pointer;
+}
