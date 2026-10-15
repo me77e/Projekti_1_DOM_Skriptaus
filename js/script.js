@@ -14,13 +14,14 @@ itemInput.classList.remove("input-error");
 
     const newRow = document.createElement("tr");
     const newCell = document.createElement("td");
-
     newCell.textContent = item;
+// merkitään tarvike pakatuksi tai poistetaan merkintä
     newCell.addEventListener("click", function () {
     newCell.classList.toggle("pakattu");
 });
     newRow.appendChild(newCell);
-    const removeCell = document.createElement("td");
+// Luodaan poista-painike tarvikkeen oikealle puolelle
+const removeCell = document.createElement("td");
 const removeButton = document.createElement("button");
 
 removeButton.textContent = "Poista";
