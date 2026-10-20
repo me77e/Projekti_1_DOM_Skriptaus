@@ -1,6 +1,6 @@
 # Projektin nimi
 
-**Tekijä(t):** Mette Holmström
+**Tekijä(t):** Mette Holmström ja Jimi Helenius
 
 ## Projektisuunnitelma
 
