@@ -1,28 +1,34 @@
 # Projektin nimi
 
-**Tekijä(t):** Kirjoita tähän oma nimesi / tekijöiden nimet
+**Tekijä(t):** Mette Holmström
 
 ## Projektisuunnitelma
 
 ### Projektin idea
 
-Kuvaile lyhyesti, mitä sovelluksesi tekee ja kenelle se on tarkoitettu.
+Tämä on pakkauslista, jonka avulla käyttäjä voi suunnitella ja seurata matkalle tarvittavien tavaroiden pakkaamista.
+
 
 ### Suunnitellut toiminnot
 
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
-- Toiminto 1
-- Toiminto 2
-- Toiminto 3
+- Tarvikkeen syöttö tarvike kenttään
+- Tarvikkeen lisääminen listaan
+- Tarvikkeen tallentaminen 
+- Tarvikkeen poistaminen
+
 
 ### Rautalankamalli / luonnos
+
+
 
 Lisää tähän kuva käsin piirtämästäsi tai digitaalisesti tehdystä sovelluksen luonnoksesta. Luonnoksessa tulee näkyä sovelluksen pääasiallinen näkymä ja tärkeimmät elementit.
 
 Esimerkki kuvan lisäämisestä:
 
 ![Rautalankamalli](img/wireframe.png)
+
 
 ## Verkkolinkit
 
@@ -32,13 +38,11 @@ Esimerkki kuvan lisäämisestä:
 
 ## Tietoja sovelluksesta
 
-**[Projektin nimi]** on verkkosovellus, joka ...
-
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+**[Pakkauslista]** on verkkosovellus, jonka avulla käyttäjä voi suunnitella ja seurata matkalle tarvittavien tavaroiden pakkaamista. Tärkeimmät toiminnot ovat, että käyttäjä pystyy syöttämään haluamansa tarvikkeen ja lisäämään sen listaan. Pakkauksen edetessä sen tilaa pystyy joustavasti muokkaamaan eli merkitä pakatuksi, poistaa ja tallentaa. 
 
 ## Teknologiat
 
-Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
+Projektissa käytimme seuraavia teknologioita: 
 
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
@@ -50,9 +54,12 @@ Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 1. Avaa julkaistu sovellus yllä olevasta linkistä.
-2. Täytä lomakkeen kentät.
-3. Lisää, muokkaa, poista tai merkitse kohteita tehdyiksi.
-4. Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea.
+2. Kirjoita haluamasi tarvike "Lisättävä tarvike" -kenttään ja paina Lisää-painiketta.
+3. Lisätty tarvike ilmestyy automaattisesti alapuolella olevaan taulukkoon.
+4. Listauksen täydentyessä voit merkata halutun tarvikkeen pakatuksi kyseistä sanaa klikkaamalla. Jos klikkaat vahingossa esim. väärän tuotteen, saat palautettua sen takaisin pakkaamattomaksi uudelleen sitä klikkaamalla. 
+5. Mikäli listaan tulee väärä tarvike, voit poistaa sen oikealla puolella olevasta poista-painikkeesta. 
+6. Listan alla näet myös pakkauslistassa olevien tarvikkeiden lukumäärän. 
+7. Tallenna lista ja tarkista hae-lista painikkeesta säilyvätkö tiedot selaimessa. 
 
 ## Sovelluksen käynnistäminen paikallisesti
 
@@ -70,40 +77,31 @@ Esimerkki kuvan lisäämisestä:
 
 ## Tunnetut virheet / puutteet
 
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
-
-Jos tunnettuja virheitä ei ole, kirjoita: **Ei tunnettuja virheitä.**
+ **Ei tunnettuja virheitä.**
 
 ## Työn jakautuminen
 
 *Täytä tämä osio vain, jos teit projektin parityönä.*
 
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+Työ suunniteltiin yhdessä ja mietittiin halutut toiminnot sovellukselle. Suunniteltiin rautalankamalli powerpointissa, jonka jälkeen sovelluksen rakentaminen aloitettiin. 
+Toteutimme yhdessä projektin koodi-osat. 
 
 ## Oma arvio ja oppimisen reflektointi
 
 Pohdi työtäsi ja oppimisprosessiasi.
 
-- Missä onnistuin?
-- Mikä oli haastavaa?
-- Mitä parantaisin, jos aikaa olisi enemmän?
-- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+- Missä onnistuin? Mielestäni onnistuin rakentamaan käyttökelpoisen ja hyödyllisen sovelluksen pakkaamisen helpottamiseksi. Koodi on toimiva ja selkeä. 
+- Mikä oli haastavaa? Toiminnallisuuksien rakentaminen ole selkästi hankalin osa. 
+- Mitä parantaisin, jos aikaa olisi enemmän? En ehkä mitään. 
+- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta? Opin tekemään javascriptillä erilaisia tominnallisuuksia.  
 - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-- Oma arvio projektista: **xx/10 pistettä**
+- Oma arvio projektista: **9/10 pistettä**
 
 ## Lähteet ja kiitokset
 
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
-
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
-
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
+- [Canvas oppimateriaalit]
+- Käytetty tekoälytyökalu: Claude code
+  - Miten työkalua käytettiin: Claude codelta kysytty apua, kun koodi ei ole toiminut (poista-painikkeessa). 
 
   ## Lisenssi
 
