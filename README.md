@@ -32,7 +32,7 @@ Esimerkki kuvan lisäämisestä:
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
+- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://me77e.github.io/Projekti_1_DOM_Skriptaus/)
 - **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
 - **Projektin videoesittely:** [Lisää tähän videon osoite](https://youtu.be/UfV1q0We-SA)
 
