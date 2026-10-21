@@ -33,7 +33,7 @@ Esimerkki kuvan lisäämisestä:
 ## Verkkolinkit
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://me77e.github.io/Projekti_1_DOM_Skriptaus/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
+- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/me77e/Projekti_1_DOM_Skriptaus)
 - **Projektin videoesittely:** [Lisää tähän videon osoite](https://youtu.be/UfV1q0We-SA)
 
 ## Tietoja sovelluksesta
