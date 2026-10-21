@@ -73,7 +73,7 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
 
 Esimerkki kuvan lisäämisestä:
 
-![Kuvakaappaus sovelluksesta] <img src="image/Sivu.png"
+![Kuvakaappaus sovelluksesta] 
 
 ## Tunnetut virheet / puutteet
 
