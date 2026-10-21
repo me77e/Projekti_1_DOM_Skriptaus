@@ -88,7 +88,7 @@ Pohdi työtäsi ja oppimisprosessiasi.
 
 - [Canvas oppimateriaalit]
 - Käytetty tekoälytyökalu: Claude code
-  - Miten työkalua käytettiin: Claude codelta kysytty apua, kun koodi ei ole toiminut (poista-painikkeessa). 
+  - Miten työkalua käytettiin: Claude codelta kysytty apua, kun koodi ei ole toiminut (poista-painikkeessa ja muissa toiminnallisuuksissa). 
 
   ## Lisenssi
 
