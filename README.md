@@ -34,7 +34,7 @@ Esimerkki kuvan lisäämisestä:
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
 - **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **Projektin videoesittely:** [Lisää tähän videon osoite](https://youtu.be/UfV1q0We-SA)
 
 ## Tietoja sovelluksesta
 
