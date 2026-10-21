@@ -65,7 +65,7 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 ## Kuvakaappaukset
 
-![Kuvakaappaus sovelluksesta](image/sivu.png)
+![Kuvakaappaus sovelluksesta](image/Sivu.png)
 
 ## Tunnetut virheet / puutteet
 
