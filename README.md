@@ -23,9 +23,6 @@ Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 ![Rautalankamalli](image/wireframe.png)
 
-
-
-
 ## Verkkolinkit
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://me77e.github.io/Projekti_1_DOM_Skriptaus/)
@@ -72,8 +69,6 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
  **Ei tunnettuja virheitä.**
 
 ## Työn jakautuminen
-
-*Täytä tämä osio vain, jos teit projektin parityönä.*
 
 Työ suunniteltiin yhdessä ja mietittiin halutut toiminnot sovellukselle. Suunniteltiin rautalankamalli powerpointissa, jonka jälkeen sovelluksen rakentaminen aloitettiin. 
 Toteutimme yhdessä projektin koodi-osat. 
